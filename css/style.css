@@ -265,7 +265,7 @@ body {
 }
 
 .card img {
-  width: 348px;
+  width: 100%;
   height: 232px;
   transition: 0.5s;
 }
@@ -445,4 +445,21 @@ footer p {
 .fa-chevron-circle-up:hover {
   color: rgb(19, 128, 26, 0.5);
   transition: 0.5s;
+}
+
+/* ANIMATIONS */
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 1280px) {
+  .wall-sticker {
+    padding: 5rem 18rem 5rem 3rem;
+    font-size: 5rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .social-links > li > a:link,
+  .social-links > li > a:visited {
+    font-size: smaller;
+  }
 }
